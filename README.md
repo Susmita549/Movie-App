@@ -1,2 +1,2 @@
 # Movie-App
-ok
+A small movie app
