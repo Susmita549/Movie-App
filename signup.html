@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+        <link rel="stylesheet" href="./styles/signup.css">
+        <link rel="stylesheet" href="./styles/common.css">
+    </head>
+
+    <body>
+        <div id="nav">
+            <div class="div">
+              <a href="movie.html"> <p>MOVIEAPP</p></a>
+            </div>
+            <div>
+              <input
+                type="text"
+                oninput="debounch(main,1000)"
+                placeholder="Search Movies"
+                id="query"
+              />
+            </div>
+            <div class="div"><a href="index.html"><p>HOME</p></a></div>
+            <div class="div"><a href="login.html"><p>LOGIN</p></a></div>
+            <div class="div"><a href="signup.html"><p>SIGNUP</p></a></div>
+        </div>
+        <div id="signup-form-div">
+
+            <form id="signupform">
+                <!--Write form input elements here-->
+                <h4>Signup</h4>
+                <input type=input placeholder="Enter Your Name" id="name"/><br>
+                <input type=input placeholder="Enter Your Number" id="number"/><br>
+                <input type=input placeholder="Enter Your E-mail" id="email"/><br>
+                <input type=input placeholder="Enter Your Password" id="password"/><br>
+                <input type="submit" id="submit">
+            </form>
+
+        </div>
+        <div id="movies"></div>
+    </body>
+
+</html>
+<script src="./scripts/signup.js"></script>
+<script src="./scripts/index.js"></script>

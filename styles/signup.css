@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#signup-form-div{
+    /* border:1px solid black; */
+    height:auto;
+    width:24%;
+    margin: auto;
+    margin-top: 35px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#signupform>h4{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+#signupform>#name,#number,#email,#password{
+    line-height: 10px;
+    width: 200px;
+    height:30px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+#signupform #submit{
+    margin:20px 0 20px 105px;
+    background-color:teal;
+    color: white;
+    border: none;
+    width:95px;
+    font-size:17px;
+    height:30px;
+    border-radius: 5px;
+
+}

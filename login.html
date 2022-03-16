@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="./styles/login.css">
+        <link rel="stylesheet" href="./styles/common.css">
+    </head>
+   
+
+    <body>
+        <div id="nav">
+            <div class="div">
+              <a href="movie.html"> <p>MOVIEAPP</p></a>
+            </div>
+            <div>
+              <input
+                type="text"
+                oninput="debounch(main,1000)"
+                placeholder="Search Movies"
+                id="query"
+              />
+            </div>
+            <div class="div"><a href="index.html"><p>HOME</p></a></div>
+            <div class="div"><a href="login.html"><p>LOGIN</p></a></div>
+            <div class="div"><a href="signup.html"><p>SIGNUP</p></a></div>
+        </div>
+        <div id="login-form-div">
+
+            <form id="loginform">
+                <!--Write form input elements here-->
+                <h4>Login</h4>
+                <input type=input placeholder="Enter Your Name" id="name"/><br>
+                <input type=input placeholder="Enter Your Password" id="password"/><br>
+                <input type="submit" id="submit">
+                    
+            </form>
+
+        </div>
+        <div id="container">
+
+        </div>
+        <div id="movies"></div>
+    </body>
+
+</html>
+<script src="./scripts/login.js"></script>
+<script src="./scripts/index.js"></script>

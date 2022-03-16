@@ -1,0 +1,64 @@
+#query {
+    width: 200px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  #movies {
+    height: 300px;
+    width: 400px;
+    
+    
+  }
+  #nav {
+    display: flex;
+    width: 98%;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(24, 24, 27, 0.623);
+  }
+  #nav > div:nth-child(1) {
+    flex-grow: 1;
+  }
+  #nav > div:nth-child(2) {
+    flex-grow: 3;
+  }
+  #nav > div:nth-child(3) {
+    flex-grow: 1;
+  }
+  #nav > div:nth-child(4) {
+    flex-grow: 1;
+  }
+  #nav > div:nth-child(5) {
+    flex-grow: 1;
+  }
+  input {
+    width: 100px;
+    margin: 10px 10px 5px 150px;
+    height: 32px;
+    border-radius: 13px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+      rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+
+  .div > p {
+    color: white;
+    font-size: 20px;
+    padding-left: 25px;
+  }
+  p {
+    text-align: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  }
+  p:hover {
+    background-color: greenyellow;
+    color: black;
+  }
+  a{
+    text-decoration: none;
+  }
